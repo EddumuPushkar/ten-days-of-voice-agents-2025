@@ -1,0 +1,24 @@
+{
+  "check_ins": [
+    {
+      "timestamp": "2025-11-24T11:42:52.525127",
+      "mood": "Nice",
+      "energy_level": "Quite good",
+      "stress_factors": [],
+      "objectives": [
+        "Complete first module of DBMS.Subject"
+      ],
+      "self_care_action": "Take a short break or stretch while studying",
+      "agent_summary": "User reported feeling nice with quite good energy, no stress, and an objective to complete the first DBMS module. Suggested a short break or stretch as self-care while studying."
+    },
+    {
+      "timestamp": "2025-11-24T11:49:19.287846",
+      "mood": "good",
+      "energy_level": "not specified",
+      "stress_factors": [],
+      "objectives": [],
+      "self_care_action": "Play some video games",
+      "agent_summary": "The user is feeling good. They have no specific objectives for their Economics for Engineers syllabus today but plan to play video games for self-care."
+    }
+  ]
+}
