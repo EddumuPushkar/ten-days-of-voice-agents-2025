@@ -1,0 +1,26 @@
+[
+  {
+    "id": "variables",
+    "title": "Variables",
+    "summary": "Variables store values so you can reuse them later. Think of them as labeled boxes where you can put data. For example, if you write 'name = John', you're storing the value 'John' in a box labeled 'name'. Later, you can retrieve or change what's in that box whenever you need it.",
+    "sample_question": "What is a variable and why is it useful in programming?"
+  },
+  {
+    "id": "loops",
+    "title": "Loops",
+    "summary": "Loops let you repeat an action multiple times without writing the same code over and over. There are two main types: 'for loops' which repeat a set number of times, and 'while loops' which keep repeating as long as a condition is true. This makes your code more efficient and easier to maintain.",
+    "sample_question": "Explain the difference between a for loop and a while loop."
+  },
+  {
+    "id": "functions",
+    "title": "Functions",
+    "summary": "Functions are reusable blocks of code that perform a specific task. You define a function once with a name, and then you can 'call' it whenever you need that task done. Functions can take inputs (called parameters) and return outputs (called return values). They help organize your code and avoid repetition.",
+    "sample_question": "What is a function and how do parameters work?"
+  },
+  {
+    "id": "conditionals",
+    "title": "Conditionals",
+    "summary": "Conditionals let your program make decisions based on whether something is true or false. The most common conditional is the 'if statement', which runs certain code only if a condition is met. You can also use 'else' for what happens when the condition is false, and 'elif' (else if) for multiple conditions.",
+    "sample_question": "How do if-else statements help programs make decisions?"
+  }
+]
