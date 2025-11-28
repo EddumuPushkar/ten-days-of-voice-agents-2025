@@ -1,0 +1,14 @@
+{
+  "customer_name": "John",
+  "timestamp": "2025-11-28T13:12:54.658520",
+  "items": [
+    {
+      "name": "Margherita Pizza",
+      "item_id": "pizza_margherita",
+      "quantity": 1,
+      "price": 12.99,
+      "total": 12.99
+    }
+  ],
+  "total": 12.99
+}

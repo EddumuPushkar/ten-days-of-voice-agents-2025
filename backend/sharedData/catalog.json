@@ -1,0 +1,152 @@
+{
+  "catalog": {
+    "groceries": [
+      {
+        "id": "bread_whole_wheat",
+        "name": "Whole Wheat Bread",
+        "category": "Groceries",
+        "price": 3.99,
+        "brand": "Nature's Best",
+        "size": "1 loaf",
+        "tags": ["gluten-free", "organic"]
+      },
+      {
+        "id": "milk_organic",
+        "name": "Organic Whole Milk",
+        "category": "Groceries",
+        "price": 4.49,
+        "brand": "Green Valley",
+        "size": "1 gallon",
+        "tags": ["organic", "dairy"]
+      },
+      {
+        "id": "eggs_dozen",
+        "name": "Free Range Eggs",
+        "category": "Groceries",
+        "price": 5.99,
+        "brand": "Happy Hens",
+        "size": "dozen",
+        "tags": ["organic", "free-range"]
+      },
+      {
+        "id": "pasta_regular",
+        "name": "Penne Pasta",
+        "category": "Groceries",
+        "price": 1.99,
+        "brand": "Barilla",
+        "size": "1 lb",
+        "tags": ["vegan"]
+      },
+      {
+        "id": "peanut_butter",
+        "name": "Natural Peanut Butter",
+        "category": "Groceries",
+        "price": 6.49,
+        "brand": "Skippy",
+        "size": "16 oz jar",
+        "tags": ["vegan", "organic"]
+      }
+    ],
+    "snacks": [
+      {
+        "id": "chips_tortilla",
+        "name": "Tortilla Chips",
+        "category": "Snacks",
+        "price": 2.99,
+        "brand": "Fritos",
+        "size": "10 oz bag",
+        "tags": ["vegan"]
+      },
+      {
+        "id": "granola_bar",
+        "name": "Honey Granola Bars",
+        "category": "Snacks",
+        "price": 4.99,
+        "brand": "Nature Valley",
+        "size": "6 count",
+        "tags": ["organic"]
+      },
+      {
+        "id": "almonds_roasted",
+        "name": "Roasted Almonds",
+        "category": "Snacks",
+        "price": 7.99,
+        "brand": "Blue Diamond",
+        "size": "8 oz bag",
+        "tags": ["vegan", "gluten-free"]
+      }
+    ],
+    "prepared_food": [
+      {
+        "id": "pizza_margherita",
+        "name": "Margherita Pizza",
+        "category": "Prepared Food",
+        "price": 12.99,
+        "brand": "Fresh Bake",
+        "size": "large (12 inch)",
+        "tags": ["vegetarian"]
+      },
+      {
+        "id": "sandwich_turkey",
+        "name": "Turkey & Swiss Sandwich",
+        "category": "Prepared Food",
+        "price": 8.99,
+        "brand": "Deli Fresh",
+        "size": "1 sandwich",
+        "tags": []
+      },
+      {
+        "id": "salad_caesar",
+        "name": "Caesar Salad with Grilled Chicken",
+        "category": "Prepared Food",
+        "price": 9.99,
+        "brand": "Fresh Express",
+        "size": "1 container",
+        "tags": ["gluten-free"]
+      }
+    ],
+    "pantry": [
+      {
+        "id": "sauce_marinara",
+        "name": "Marinara Sauce",
+        "category": "Pantry",
+        "price": 2.49,
+        "brand": "Rao's",
+        "size": "24 oz jar",
+        "tags": ["vegan", "organic"]
+      },
+      {
+        "id": "olive_oil",
+        "name": "Extra Virgin Olive Oil",
+        "category": "Pantry",
+        "price": 8.99,
+        "brand": "Bertolli",
+        "size": "500 ml",
+        "tags": ["vegan", "organic"]
+      },
+      {
+        "id": "jam_strawberry",
+        "name": "Strawberry Jam",
+        "category": "Pantry",
+        "price": 3.49,
+        "brand": "Smuckers",
+        "size": "18 oz jar",
+        "tags": ["vegan"]
+      }
+    ]
+  },
+  "recipes": {
+    "peanut_butter_sandwich": {
+      "name": "Peanut Butter Sandwich",
+      "items": ["bread_whole_wheat", "peanut_butter", "jam_strawberry"]
+    },
+    "pasta_dinner": {
+      "name": "Pasta Dinner for Two",
+      "items": ["pasta_regular", "sauce_marinara", "olive_oil"]
+    },
+    "breakfast": {
+      "name": "Breakfast",
+      "items": ["bread_whole_wheat", "eggs_dozen", "milk_organic"]
+    }
+  }
+}
